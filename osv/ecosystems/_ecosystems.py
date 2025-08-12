@@ -47,6 +47,7 @@ _ecosystems = {
     'crates.io': SemverEcosystem(),
     'Go': SemverEcosystem(),
     'Hex': SemverEcosystem(),
+    'Julia': SemverEcosystem(),
     'npm': SemverEcosystem(),
     'SwiftURL': SemverEcosystem(),
     # Non SemVer-based ecosystems
@@ -82,6 +83,7 @@ SEMVER_ECOSYSTEMS = {
     'crates.io',
     'Go',
     'Hex',
+    'Julia',
     'npm',
     'SwiftURL',
 }
@@ -95,6 +97,7 @@ package_urls = {
     'Go': 'https://',
     'Hackage': 'https://hackage.haskell.org/package/',
     'Hex': 'https://hex.pm/packages/',
+    'Julia': 'https://github.com/JuliaRegistries/General',
     'Mageia': 'https://madb.mageia.org/show?rpm=',
     'npm': 'https://www.npmjs.com/package/',
     'NuGet': 'https://www.nuget.org/packages/',
